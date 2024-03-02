@@ -61,3 +61,45 @@ button img{
   width: 17px;
   font-weight: 900;
 }
+
+.weather-icon{
+  width: 50%;
+  min-width: 200px;
+  margin-top: 10px;
+}
+.weather h1{
+  font-size: 80px;
+  margin-top: -30px;
+}
+.weather h2{
+  font-size: 40px;
+  font-weight: 700;
+  /* border: 1px solid red; */
+  margin-top: -px;
+}
+
+.details{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* border: 1px solid red; */
+  margin-top: 20px;
+  padding: 30px 10%;
+  /* flex-direction: column; */
+  
+}
+@media screen and (max-width: 310px) {
+  .details{
+    flex-direction: column;
+    justify-content: space-between;
+    height: 350px;
+  }
+}
+.details img{
+  width: 70%;
+}
+
+.humidity, .Wind{
+  font-size: 30px;
+}
