@@ -75,7 +75,8 @@ button img{
   font-size: 40px;
   font-weight: 700;
   /* border: 1px solid red; */
-  margin-top: -px;
+  /* margin-top: -px; */
+  text-transform: capitalize;
 }
 
 .details{
@@ -96,14 +97,24 @@ button img{
     height: 350px;
   }
 }
+@media screen and (max-width: 330px) {
+  .weather h1{
+    font-size: 65px;
+
+  }
+  .weather h2{
+    font-size: 30px;
+  }
+}
 /* .details img{
   width: 70%;
 } */
-.wind{
+.wind-img{
   width: 50%;
 }
-.humidity{
+.humidity-img{
   width: 70%;
+  padding-bottom: 18px;
 }
 .humidity, .Wind{
   font-size: 30px;
