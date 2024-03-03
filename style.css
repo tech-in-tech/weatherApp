@@ -96,10 +96,15 @@ button img{
     height: 350px;
   }
 }
-.details img{
+/* .details img{
+  width: 70%;
+} */
+.wind{
+  width: 50%;
+}
+.humidity{
   width: 70%;
 }
-
 .humidity, .Wind{
   font-size: 30px;
 }
