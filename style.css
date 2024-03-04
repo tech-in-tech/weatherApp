@@ -64,6 +64,8 @@ button img{
 
 .weather-icon{
   width: 50%;
+  padding: 0px;
+  /* border: 1px solid red; */
   min-width: 200px;
   margin-top: 10px;
 }
@@ -119,3 +121,17 @@ button img{
 .humidity, .Wind{
   font-size: 30px;
 }
+
+.err{
+  font-size: 30px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: none;
+
+  /* text-align: left;
+  margin-left: 10px;
+  font-size: 14px;
+  margin-top: 10px;
+  display: none; */
+}
+
